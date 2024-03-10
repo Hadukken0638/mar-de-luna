@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ethan Castillo <eitham0638@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.12",
     "framer-motion": "^10.18.0",
     "next": "^14.1.0",
     "react": "^18.2.0",
